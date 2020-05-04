@@ -18,5 +18,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "myapp": {
+      "tags": []
+    },
+    "myapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["myapp"]
+    },
+    "mylib": {
+      "tags": []
+    }
+  }
 }
